@@ -9,10 +9,6 @@ html {
 
 body {
   background: #35c9ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .container {
@@ -63,11 +59,4 @@ body {
   transition: 0.4s ease all;
   cursor: pointer;
   background: #2a9fc9;
-}
-
-@media (max-width: 550px) {
-	body {
-		display: block;
-		min-height: auto;
-	}
 }
