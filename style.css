@@ -64,3 +64,10 @@ body {
   cursor: pointer;
   background: #2a9fc9;
 }
+
+@media (max-width: 550px) {
+	body {
+		display: block;
+		min-height: auto;
+	}
+}
